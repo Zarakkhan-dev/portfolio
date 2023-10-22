@@ -1,0 +1,210 @@
+body{
+    overflow: hidden;
+    background-color: #141414;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+	cursor: none;
+   }
+.rigid{
+    background-color: #ffb400;
+    position: absolute;
+    top: -2vh;
+    width: 69.1vh;
+    height: 118vh;
+    transform: rotate(-15deg);
+    left: -30vh;
+    border-radius: 5px;
+    z-index: -1;
+}
+.grid{
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+    align-items: center;
+  /* justify-content: center; */
+  gap:20vh;
+    z-index: 1;
+    width: 95%;
+    margin: 5vh auto;
+}
+.info{
+ margin-right: 27vh;
+ margin-left: 5vh;
+}
+.text{
+    line-height: 37px;
+    font-size: large;
+}
+.img{
+    width: 68vh;
+    height: 90vh;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    align-items:flex-end;
+}
+.img {
+    background-image: url("../../../public/Picture/Profile.png");
+    background-position: bottom;
+    background-size: 150% 90%;
+    background-repeat: no-repeat;
+}
+.name {
+    color: #ffb400;
+    font-size: 51px;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+ @import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+
+ .button-container-1 button {
+	 width: 121%;
+	 height: 100%;
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 300;
+	 font-size: 25px;
+	 letter-spacing: 1px;
+	 font-weight: bold;
+	 background: #000000f6;
+	 -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+	 mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+	 -webkit-mask-size: 2300% 100%;
+	 mask-size: 2300% 100%;
+	 border: none;
+	 color: #fff;
+	 cursor: pointer;
+	 -webkit-animation: ani2 0.7s steps(22) forwards;
+	 animation: ani2 0.7s steps(22) forwards;
+}
+ .button-container-1 button:hover {
+	 -webkit-animation: ani 0.7s steps(22) forwards;
+	 animation: ani 0.7s steps(22) forwards;
+}
+ .button-container-2 {
+	 position: relative;
+	 width: 200px;
+	 height: 50px;
+	 margin-top: 4vh;
+	 overflow: hidden;
+	 border: 1px solid #ffb400;
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 300;
+	 transition: 0.5s;
+	 letter-spacing: 1px;
+	 border-radius: 25px;
+}
+ .button-container-2 button {
+	 width: 101%;
+	 height: 100%;
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 300;
+	 font-size: 17px;
+	 letter-spacing: 1px;
+	 font-weight: bold;
+	 background: #ffb300ef;
+	 -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+	 mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+	 -webkit-mask-size: 3000% 100%;
+	 mask-size: 3000% 100%;
+	 border: none;
+	 color: #fff;
+	 cursor: pointer;
+	 -webkit-animation: ani2 0.7s steps(29) forwards;
+	 animation: ani2 0.7s steps(29) forwards;
+}
+ .button-container-2 button:hover {
+	 -webkit-animation: ani 0.7s steps(29) forwards;
+	 animation: ani 0.7s steps(29) forwards;
+}
+ .mas {
+	 position: absolute;
+	 color: #ffb400;
+	 text-align: center;
+	 width: 100%;
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 300;
+	 position: absolute;
+	 font-size: 17px;
+	 margin-top: 12px;
+	 overflow: hidden;
+	 font-weight: bold;
+}
+ @-webkit-keyframes ani {
+	 from {
+		 -webkit-mask-position: 0 0;
+		 mask-position: 0 0;
+	}
+	 to {
+		 -webkit-mask-position: 100% 0;
+		 mask-position: 100% 0;
+	}
+}
+ @keyframes ani {
+	 from {
+		 -webkit-mask-position: 0 0;
+		 mask-position: 0 0;
+	}
+	 to {
+		 -webkit-mask-position: 100% 0;
+		 mask-position: 100% 0;
+	}
+}
+ @-webkit-keyframes ani2 {
+	 from {
+		 -webkit-mask-position: 100% 0;
+		 mask-position: 100% 0;
+	}
+	 to {
+		 -webkit-mask-position: 0 0;
+		 mask-position: 0 0;
+	}
+}
+ @keyframes ani2 {
+	 from {
+		 -webkit-mask-position: 100% 0;
+		 mask-position: 100% 0;
+	}
+	 to {
+		 -webkit-mask-position: 0 0;
+		 mask-position: 0 0;
+	}
+}
+
+ .button-container-3 {
+	 position: relative;
+	 width: 100px;
+	 height: 50px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 margin-top: 8vh;
+	 overflow: hidden;
+	 border: 1px solid #ffb400;
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 300;
+	 transition: 0.5s;
+	 letter-spacing: 1px;
+
+}
+ .button-container-3 button {
+	 width: 101%;
+	 height: 100%;
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 300;
+	 font-size: 11px;
+	 letter-spacing: 1px;
+	 font-weight: bold;
+	 background: #000;
+	 -webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+	 mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+	 -webkit-mask-size: 7100% 100%;
+	 mask-size: 7100% 100%;
+	 border: none;
+	 color: #fff;
+	 cursor: pointer;
+	 -webkit-animation: ani2 0.7s steps(70) forwards;
+	 animation: ani2 0.7s steps(70) forwards;
+}
+ .button-container-3 button:hover {
+	 -webkit-animation: ani 0.7s steps(70) forwards;
+	 animation: ani 0.7s steps(70) forwards;
+}
+ 
