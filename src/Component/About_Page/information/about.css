@@ -1,14 +1,12 @@
 body{
     cursor: none;
 }
-.Section-1{
+ .Section-1{
     display:grid;
     grid-template-columns: 1fr 1fr;
     width:70%;
     margin: 10vh auto;
     column-gap: 5vh;
-
-
 }
 .details{
     display: grid;
@@ -29,7 +27,7 @@ body{
     margin-top: -5%;
     background-color: transparent;
 }
-.text{
+.text-About{
     width:70px;
     text-transform: uppercase;
 }
@@ -40,4 +38,4 @@ body{
 .number{
     color: #ffb400;
     font-size: 30px;
-}
+} 

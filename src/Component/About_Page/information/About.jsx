@@ -35,7 +35,7 @@ const About = () => {
       <div className="number text-[#ffb400]">
         3+
       </div>
-      <div className="text">
+      <div className="text-About">
         Years of experience
       </div>
     </div>
@@ -43,7 +43,7 @@ const About = () => {
       <div className="number">
         97+
       </div>
-      <div className="text">
+      <div className="text-About">
         Completed projects 
       </div>
     </div>
@@ -51,7 +51,7 @@ const About = () => {
       <div className="number">
         81+
       </div>
-      <div className="text">
+      <div className="text-About">
         Happy Customers
       </div>
     </div>
@@ -59,7 +59,7 @@ const About = () => {
       <div className="number">
         10+
       </div>
-      <div className="text">
+      <div className="text-About">
         Cerification
       </div>
     </div>
