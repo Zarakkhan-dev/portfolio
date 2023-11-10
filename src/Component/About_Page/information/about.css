@@ -1,3 +1,43 @@
 body{
     cursor: none;
 }
+.Section-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width:70%;
+    margin: 10vh auto;
+    column-gap: 5vh;
+
+
+}
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3vh;
+    gap:3vh;
+    font-size: 2vh;
+}
+.box-work{
+    background-color: transparent;
+    padding: 4vh;
+    width: 320px;
+    height: 150px;
+    border: 1px solid #252525;
+}
+.overview{
+    gap:0px;
+    margin-top: -5%;
+    background-color: transparent;
+}
+.text{
+    width:70px;
+    text-transform: uppercase;
+}
+.overview-1{
+    gap: 3vh;
+  
+}
+.number{
+    color: #ffb400;
+    font-size: 30px;
+}

@@ -59,7 +59,6 @@ body{
  .button-container-1 button {
 	 width: 121%;
 	 height: 100%;
-	 font-family: 'Lato', sans-serif;
 	 font-weight: 300;
 	 font-size: 25px;
 	 letter-spacing: 1px;
@@ -86,7 +85,6 @@ body{
 	 margin-top: 4vh;
 	 overflow: hidden;
 	 border: 1px solid #ffb400;
-	 font-family: 'Lato', sans-serif;
 	 font-weight: 300;
 	 transition: 0.5s;
 	 letter-spacing: 1px;
@@ -95,7 +93,6 @@ body{
  .button-container-2 button {
 	 width: 101%;
 	 height: 100%;
-	 font-family: 'Lato', sans-serif;
 	 font-weight: 300;
 	 font-size: 17px;
 	 letter-spacing: 1px;
@@ -120,7 +117,6 @@ body{
 	 color: #ffb400;
 	 text-align: center;
 	 width: 100%;
-	 font-family: 'Lato', sans-serif;
 	 font-weight: 300;
 	 position: absolute;
 	 font-size: 17px;
@@ -178,7 +174,6 @@ body{
 	 margin-top: 8vh;
 	 overflow: hidden;
 	 border: 1px solid #ffb400;
-	 font-family: 'Lato', sans-serif;
 	 font-weight: 300;
 	 transition: 0.5s;
 	 letter-spacing: 1px;
@@ -187,7 +182,6 @@ body{
  .button-container-3 button {
 	 width: 101%;
 	 height: 100%;
-	 font-family: 'Lato', sans-serif;
 	 font-weight: 300;
 	 font-size: 11px;
 	 letter-spacing: 1px;
