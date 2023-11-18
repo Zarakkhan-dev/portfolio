@@ -1,0 +1,54 @@
+.front {
+  word-spacing: -12px;
+}
+.Contact-Section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+  padding: 1vh 30vh;
+  margin-top: 10vh;
+}
+
+input,
+textarea {
+  background-color: #252525;
+  padding: 10px 3vh;
+  width: 100%;
+  border-radius: 20px;
+  
+}
+input,
+textarea {
+  background-color: #252525;
+  padding: 10px 3vh;
+  width: 100%;
+  border-radius: 20px;
+}
+input:focus,
+textarea:focus {
+  outline: 1px solid #ffb400;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #4d4d4d;
+  opacity: 1; /* Firefox */
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: #4d4d4d;
+}
+.your-info {
+  display: flex;
+  margin-bottom: 4vh;
+  gap:3vh;
+}
+.Contact-form {
+  width: 100%;
+}
+textarea{
+    padding: 3vh;
+}
+.Subject-field{
+    margin-bottom: 4vh;
+}

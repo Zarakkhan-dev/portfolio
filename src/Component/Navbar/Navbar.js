@@ -20,14 +20,18 @@ const Navbar = () => {
             <div className="name">About </div>
         </li>
         </Link>
+        <Link href="/portfolio">
         <li className={`menu-item  ${Change_color ==="portfolio" ? "active":"" }`} onClick={()=>updateChange_color("portfolio")}>
         <div className="icon"> <i className="fa-solid fa-briefcase"></i> </div>
             <div className="name" id ="portfolio-tab" >Portfolio</div>
         </li>
+        </Link>
+        <Link href="/contact">
         <li className={`menu-item  ${Change_color ==="contact" ? "active":"" }`} onClick={()=>updateChange_color("contact")} >
         <div className="icon"><i className="fa-solid fa-envelope-open"></i></div>
             <div className="name" id="contact-tab" >Contact </div>
         </li>
+        </Link>
     </ul>
     </nav>
     </>
