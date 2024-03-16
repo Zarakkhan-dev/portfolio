@@ -6,6 +6,7 @@ const Home = () => {
   const router = useRouter();
   return (
     <>
+    <div className="HomePage">
       <div className="rigid"></div>
       <div className="grid">
         <section className="Profile-Image">
@@ -31,6 +32,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

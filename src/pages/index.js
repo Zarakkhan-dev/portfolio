@@ -4,9 +4,11 @@ import Navbar from "@/Component/Navbar/Navbar";
 export default function Home() {
   return (
     <>
+      <div className="Home relative bg-slate-400 w-[200vh]">
         <Arrow />
-        <Navbar />
+        {/* <Navbar /> */}
         <Header />
+        </div>
     </>
   );
 }

@@ -100,7 +100,7 @@ right: 85px;
 }
 
 @media only screen and (max-width: 1250px) {
-    /* nav{
+    nav{
         
         display: flex;
         height: 10vh;
@@ -118,5 +118,5 @@ right: 85px;
         padding: 0;
         display: flex;
         flex-direction: row;
-    } */
+    }
   }

@@ -6,7 +6,7 @@ body {
 	cursor: none;
 }
 
-.rigid {
+.HomePage .rigid {
 	background-color: #ffb400;
 	position: absolute;
 	top: -2vh;
@@ -18,7 +18,7 @@ body {
 	z-index: -1;
 }
 
-.grid {
+.HomePage .grid {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	align-items: center;
@@ -30,17 +30,17 @@ body {
 	
 }
 
-.info {
+.HomePage .info {
 	margin-right: 27vh;
 	margin-left: 5vh;
 }
 
-.text {
+.HomePage .text {
 	line-height: 37px;
 	font-size: large;
 }
 
-.img {
+.HomePage .img {
 	width: 68vh;
 	height: 90vh;
 	background-color: black;
@@ -49,20 +49,20 @@ body {
 	align-items: flex-end;
 }
 
-.img {
+.HomePage .img {
 	background-image: url("../../../public/Picture/Profile.png");
 	background-position: bottom center;
 	background-size: 150% 135%;
 	background-repeat: no-repeat;
 }
 
-.name {
+.HomePage .name {
 	color: #ffb400;
 	font-size: 51px;
 }
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
-.button-container-2 {
+.HomePage .button-container-2 {
 	position: relative;
 	width: 200px;
 	height: 50px;
@@ -75,7 +75,7 @@ body {
 	border-radius: 25px;
 }
 
-.button-container-2 button {
+.HomePage .button-container-2 button {
 	width: 101%;
 	height: 100%;
 	font-weight: 300;
@@ -94,12 +94,12 @@ body {
 	animation: ani2 0.7s steps(29) forwards;
 }
 
-.button-container-2 button:hover {
+.HomePage .button-container-2 button:hover {
 	-webkit-animation: ani 0.7s steps(29) forwards;
 	animation: ani 0.7s steps(29) forwards;
 }
 
-.mas {
+.HomePage .mas {
 	position: absolute;
 	color: #ffb400;
 	text-align: center;
@@ -161,25 +161,26 @@ body {
 }
 
 @media only screen and (max-width: 1250px) {
-	.rigid {
+	.HomePage .rigid {
 		visibility: hidden;
 	}
-	.img {
+	.HomePage .img {
 		border-radius: 45px !important;
 		background-color: #ffb400;
 	}
-	.grid {
+	.HomePage .grid {
 		grid-template-columns: 1fr;
-
-		background-color: azure;
-	justify-content: end;
-	
+		justify-items: center;
+		gap:0;
+	width: 100vh;
 	}
-	.img{
-		height: 25vh;
-		width: 25vh;
+	.HomePage .img{
+		height: 45vh;
+		width: 45vh;
 		border-radius: 300px !important;
+		background-size: 150% 135%;
 	}
+
 	
 }
 
