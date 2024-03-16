@@ -1,12 +1,16 @@
 import React from "react";
 import Writer from "../Typewriter/Writer";
-
+import { useRouter } from "next/router";
 const Home = () => {
+
+  const router = useRouter();
   return (
     <>
       <div className="rigid"></div>
       <div className="grid">
-        <div className="img"></div>
+        <section className="Profile-Image">
+
+        <div className="img"></div></section>
         <div className="info">
           <div className="name font-bold ">I'M ZARAK KHAN.</div>
           <div className="typewriter leading-10 uppercase font-bold text-white text-[51px] w-[200%] h-[30px]">
@@ -18,7 +22,7 @@ const Home = () => {
             building excellent software that improves the lives of those around
             me.
           </div>
-          <div className="button">
+          <div className="button" onClick={()=>router.push("/about")} >
             <div className="button-container-2">
               <span className="mas">Click here visit</span>
               <button type="button" name="Hover">

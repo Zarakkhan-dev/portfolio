@@ -87,24 +87,24 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
-.About-Page{
+/* .About-Page{
   height: 100vh;
   overflow: hidden;
-}
-.Scrollable-About-Page{
+} */
+.Portfolio_Page ,.Scrollable-About-Page{
   overflow-y: scroll;
   height: 100vh;
 }
-.Scrollable-About-Page::-webkit-scrollbar {
+.Portfolio_Page::-webkit-scrollbar  , .Scrollable-About-Page::-webkit-scrollbar {
   width: 12px;
 }
 
-.Scrollable-About-Page::-webkit-scrollbar-track {
+.Portfolio_Page::-webkit-scrollbar-track ,.Scrollable-About-Page::-webkit-scrollbar-track {
   background: rgb(51,51,51);
   border-radius: 25px;
 }
 
-.Scrollable-About-Page::-webkit-scrollbar-thumb {
+.Portfolio_Page::-webkit-scrollbar-track ,.Scrollable-About-Page::-webkit-scrollbar-thumb {
   background: rgb(85,85,85);
   border: 3px solid #333;
   border-radius: 25px;

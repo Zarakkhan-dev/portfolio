@@ -65,7 +65,7 @@ const About = () => {
               <div className="discr flex gap-5 mt-1 ml-2">
                 <div className="hr">
                   {" "}
-                  <hr className="w-[35px]" />
+                  <div className="w-[35px] h-[1px] bg-white"> </div>
                 </div>
                 <div className="text-About">Years of experience</div>
               </div>
@@ -75,7 +75,7 @@ const About = () => {
               <div className="discr flex gap-5 mt-1 ml-2">
                 <div className="hr">
                   {" "}
-                  <hr className="w-[35px]" />
+                  <div className="w-[35px] h-[1px] bg-white"> </div>
                 </div>
                 <div className="text-About">Completed projects</div>
               </div>
@@ -86,7 +86,7 @@ const About = () => {
               <div className="discr flex gap-5 mt-1 ml-2">
                 <div className="hr">
                   {" "}
-                  <hr className="w-[35px]" />
+                  <div className="w-[35px] h-[1px] bg-white"> </div>
                 </div>
                 <div className="text-About">Happy Customers</div>
               </div>
@@ -96,7 +96,7 @@ const About = () => {
               <div className="discr flex gap-5 mt-1 ml-3">
                 <div className="hr">
                   {" "}
-                  <hr className="w-[35px]" />
+                  <div className="w-[35px] h-[1px] bg-white"> </div>
                 </div>
                 <div className="text-About">Completed projects</div>
               </div>
@@ -109,51 +109,51 @@ const About = () => {
       </h1>
       <div className="Skills-show">
         <div className="Skill">
-          <div class="progress-bar">95%</div>
+          <div className="progress-bar">95%</div>
           <h1 className="text-center mt-4">HTML</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">87%</div>
+          <div className="progress-bar">87%</div>
           <h1 className="text-center mt-4">CSS</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">85%</div>
+          <div className="progress-bar">85%</div>
           <h1 className="text-center mt-4">JAVASCRIPT</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">80%</div>
+          <div className="progress-bar">80%</div>
           <h1 className="text-center mt-4">REACT JS</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">85%</div>
+          <div className="progress-bar">85%</div>
           <h1 className="text-center mt-4">NEXT JS</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">70%</div>
+          <div className="progress-bar">70%</div>
           <h1 className="text-center mt-4">NODE JS</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">75%</div>
+          <div className="progress-bar">75%</div>
           <h1 className="text-center mt-4">EXPRESS JS</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">87%</div>
+          <div className="progress-bar">87%</div>
           <h1 className="text-center mt-4">MONGODB</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">90%</div>
+          <div className="progress-bar">90%</div>
           <h1 className="text-center mt-4">MONGOOSE</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">85%</div>
+          <div className="progress-bar">85%</div>
           <h1 className="text-center mt-4">DJANGO</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">70%</div>
+          <div className="progress-bar">70%</div>
           <h1 className="text-center mt-4">PYTORCH</h1>
         </div>
         <div className="Skill">
-          <div class="progress-bar">70%</div>
+          <div className="progress-bar">70%</div>
           <h1 className="text-center mt-4">REACT NATIVE</h1>
         </div>
       </div>
@@ -170,15 +170,15 @@ const About = () => {
                 style={{ color: "#ffffff" }}
               ></i>
             </div>
-            <hr className="w-[1px] h-[100px] bg-[#333333] border-none" />
+            <div className="w-[1px] h-[100px] bg-[#333333] border-none" > </div>
             </div>
             <div className="Info-section-About ">
               <p className="bg-[#212121] text-[#c6c6c6] text-[12px] rounded-lg font-[700] uppercase flex items-center gap-[3px]  py-[3px] px-[7px]">
                 {" "}
-                2023 <hr className="w-[3px]" /> Present
+                2023 <div className="w-[3px] h-[1px] bg-white"></div> Present
               </p>
-              <h1 class="flex items-center   gap-[7px] font-[600] text-[20px]">
-                Ceo & Founder <hr className="w-[9px] text-[#cfcfcf]" />{" "}
+              <h1 className="flex items-center   gap-[7px] font-[600] text-[20px]">
+                Ceo & Founder <div className="w-[10px] h-[1px] bg-[#cfcfcf]"></div>{" "}
                 <span className="text-[#cfcfcf]">Devverse</span>
               </h1>
               <p className="text-[#c6c6c6] text-[15px]">
@@ -195,15 +195,15 @@ const About = () => {
                 style={{ color: "#ffffff" }}
               ></i>
             </div>
-            <hr className="w-[1px] h-[100px] bg-[#333333] border-none" />
+            <div className="w-[1px] h-[100px] bg-[#333333] border-none" > </div>
             </div>
             <div className="Info-section-About ">
               <p className="bg-[#212121] text-[#c6c6c6] text-[12px] rounded-lg font-[700] uppercase flex items-center gap-[3px]  py-[3px] px-[7px]">
                 {" "}
                 2023
               </p>
-              <h1 class="flex items-center   gap-[7px] font-[600] text-[20px]">
-              Wordpress Developer  <hr className="w-[9px] text-[#cfcfcf]" />{" "}
+              <h1 className="flex items-center   gap-[7px] font-[600] text-[20px]">
+              Wordpress Developer<div className="w-[10px] h-[1px] bg-[#cfcfcf]"></div>{" "}
                 <span className="text-[#cfcfcf]">Horticlub</span>
               </h1>
               <p className="text-[#c6c6c6] text-[15px]">
@@ -219,15 +219,15 @@ const About = () => {
                 style={{ color: "#ffffff" }}
               ></i>
             </div>
-            <hr className="w-[1px] h-[100px] bg-[#333333] border-none" />
+            <div className="w-[1px] h-[100px] bg-[#333333] border-none" > </div>
             </div>
             <div className="Info-section-About ">
               <p className="bg-[#212121] text-[#c6c6c6] text-[12px] rounded-lg font-[700] uppercase flex items-center gap-[3px]  py-[3px] px-[7px]">
                 {" "}
-                2022 <hr className="w-[3px]" /> 2023
+                2022 <div className="w-[3px] h-[1px] bg-white"></div> 2023
               </p>
-              <h1 class="flex items-center   gap-[7px] font-[600] text-[20px]">
-              Mern Developer <hr className="w-[9px] text-[#cfcfcf]" />{" "}
+              <h1 className="flex items-center   gap-[7px] font-[600] text-[20px]">
+              Mern Developer <div className="w-[10px] h-[1px] bg-[#cfcfcf]"></div>{" "}
                 <span className="text-[#cfcfcf]">Edify Group of IT</span>
               </h1>
               <p className="text-[#c6c6c6] text-[15px]">
@@ -245,15 +245,15 @@ const About = () => {
                 style={{ color: "#ffffff" }}
               ></i>
             </div>
-            <hr className="w-[1px] h-[100px] bg-[#333333] border-none" />
+            <div className="w-[1px] h-[100px] bg-[#333333] border-none" > </div>
             </div>
             <div className="Info-section-About ">
               <p className="bg-[#212121] text-[#c6c6c6] text-[12px] rounded-lg font-[700] uppercase flex items-center gap-[3px]  py-[3px] px-[7px]">
                 {" "}
-                2020 <hr className="w-[3px]" /> 2024
+                2020 <div className="w-[3px] h-[1px] bg-white"></div> 2024
               </p>
-              <h1 class="flex items-center   gap-[7px] font-[600] text-[20px]">
-              BS Software Engineering <hr className="w-[9px] text-[#cfcfcf]" />{" "}
+              <h1 className="flex items-center   gap-[7px] font-[600] text-[20px]">
+              BS Software Engineering <div className="w-[10px] h-[1px] bg-[#cfcfcf]"></div>{" "}
                 <span className="text-[#cfcfcf]">The University of Faisalabad</span>
               </h1>
               <p className="text-[#c6c6c6] text-[15px]">
@@ -269,15 +269,15 @@ const About = () => {
                 style={{ color: "#ffffff" }}
               ></i>
             </div>
-            <hr className="w-[1px] h-[100px] bg-[#333333] border-none" />
+            <div className="w-[1px] h-[100px] bg-[#333333] border-none" > </div>
             </div>
             <div className="Info-section-About ">
               <p className="bg-[#212121] text-[#c6c6c6] text-[12px] rounded-lg font-[700] uppercase flex items-center gap-[3px]  py-[3px] px-[7px]">
                 {" "}
-                2018 <hr className="w-[3px]" /> 2020
+                2018 <div className="w-[3px] h-[1px] bg-white"></div>  2020
               </p>
-              <h1 class="flex items-center gap-[7px] font-[600] text-[20px]">
-              F.S.c Engineering  <hr className="w-[9px] text-[#cfcfcf]" />{" "}
+              <h1 className="flex items-center gap-[7px] font-[600] text-[20px]">
+              F.S.c Engineering  <div className="w-[10px] h-[1px] bg-[#cfcfcf]"></div>{" "}
                 <span className="text-[#cfcfcf]">Punjab Group of Collage</span>
               </h1>
              

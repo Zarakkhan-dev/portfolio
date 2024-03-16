@@ -10,7 +10,7 @@ const Writer = () => {
       <h1>
         <span>
           <Typewriter
-            words={['MERN Developer', 'Web Designer', 'App Developer', 'Pytorch Developer']}
+            words={['MERN Developer', 'Web Designer', 'App Developer', 'Pytorch Developer','NextJs Developer','DL / ML Engineer']}
             loop={false}
             cursor
             cursorStyle=''

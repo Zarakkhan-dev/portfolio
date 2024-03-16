@@ -1,0 +1,90 @@
+body {
+    overflow: hidden;
+    background-color: #141414;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: none;
+}
+
+.Portfolio-grid-1 {
+    background-image: url(".././../../public/Picture/Project_1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: Top;
+    transition: .3s linear;
+}
+
+.Portfolio-grid-2 {
+    background-image: url(".././../../public/Picture/Project_2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: Top;
+    transition: .3s linear;
+}
+
+.Portfolio-grid-3 {
+    background-image: url(".././../../public/Picture/Project_3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: Top;
+    transition: .3s linear;
+}
+
+.Portfolio-grid-4 {
+    background-image: url(".././../../public/Picture/Project_4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: Top;
+    transition: .3s linear;
+}
+
+.Portfolio-grid-5 {
+    background-image: url(".././../../public/Picture/Project_5.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: Top;
+    transition: .3s linear;
+}
+
+.Portfolio-grid-6 {
+    background-image: url(".././../../public/Picture/Project_6.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: Top;
+    transition: 0.9s linear;
+}
+
+.Portfolio-grid-7 {
+    background-image: url(".././../../public/Picture/Project_7.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: Top;
+    transition: .9s linear;
+}
+
+.Portfolio-grid-1:hover ,.Portfolio-grid-2:hover,
+.Portfolio-grid-3:hover,
+.Portfolio-grid-4:hover,
+.Portfolio-grid-5:hover,
+.Portfolio-grid-6:hover,
+.Portfolio-grid-7:hover {
+    background-position: bottom;
+
+}
+.Portfolio-grid-1 ,.Portfolio-grid-2,
+.Portfolio-grid-3,
+.Portfolio-grid-4,
+.Portfolio-grid-5,
+.Portfolio-grid-6,
+.Portfolio-grid-7 {
+    border-radius: 15px;
+
+}
+
+.Portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20vh 1vh;
+    width: 80%;
+    margin: 10vh auto;
+}

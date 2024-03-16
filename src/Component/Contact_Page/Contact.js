@@ -23,7 +23,7 @@ const contact = () => {
   return (
     <>
       <div className="title relative  text-center  mt-20">
-        <h1 className="front  font-extrabold text-[55px]  relative z-10 uppercase tracking-[-1%]">
+        <h1 className="front  font-extrabold text-[55px] lg:text-[45px] relative z-10 uppercase tracking-[-1%]">
           {" "}
           Get in
           <span className="span-tag text-[#ffb400] font-extrabold uppercase ">
@@ -31,7 +31,7 @@ const contact = () => {
             touch
           </span>
         </h1>
-        <h1 className="absolute top-[-50%] w-[100%] text-[14vh] text-[#222222] font-extrabold z-0 uppercase">
+        <h1 className="absolute top-[-50%] w-[100%] text-[14vh] lg:text-[12vh] lg:top-[-45%] text-[#222222] font-extrabold z-0 uppercase">
           Contact
         </h1>
       </div>
@@ -116,8 +116,8 @@ const contact = () => {
               value={form_Date.message}
             ></textarea>
             <div className="submit_button">
-              <div class="container">
-                <div class="btn" type="submit">
+              <div className="container">
+                <div className="btn-submit" type="submit">
                   <p>Send Message</p>
                 </div>
               </div>
