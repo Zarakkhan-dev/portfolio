@@ -1,7 +1,6 @@
 body {
 	overflow: hidden;
 	background-color: #141414;
-	color: white;
 	font-family: 'Poppins', sans-serif;
 	cursor: none;
 }
@@ -9,7 +8,7 @@ body {
 .HomePage .rigid {
 	background-color: #ffb400;
 	position: absolute;
-	top: -2vh;
+	top: -14vh;
 	width: 80vh;
 	height: 228vh;
 	transform: rotate(-15deg);
@@ -160,27 +159,4 @@ body {
 	}
 }
 
-@media only screen and (max-width: 1250px) {
-	.HomePage .rigid {
-		visibility: hidden;
-	}
-	.HomePage .img {
-		border-radius: 45px !important;
-		background-color: #ffb400;
-	}
-	.HomePage .grid {
-		grid-template-columns: 1fr;
-		justify-items: center;
-		gap:0;
-	width: 100vh;
-	}
-	.HomePage .img{
-		height: 45vh;
-		width: 45vh;
-		border-radius: 300px !important;
-		background-size: 150% 135%;
-	}
-
-	
-}
 

@@ -3,11 +3,11 @@ body {
 }
 .Section-1 {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  width: 75%;
+  grid-template-columns: 1.4fr 1fr;
+  width: 90%;
   margin: 4vh auto;
-  column-gap: 12vh;
-  padding: 1vh;
+  padding:6vh;
+  column-gap: 5vh;
 }
 .details {
   display: grid;
@@ -30,7 +30,8 @@ body {
   font-weight: 500;
 }
 .overview-1 {
-  gap: 4vh;
+  justify-self: flex-start;
+  gap: 2vh 3vh;
 }
 .number {
   color: #ffb400;
