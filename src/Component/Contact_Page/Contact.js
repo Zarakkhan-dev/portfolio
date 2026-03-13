@@ -22,8 +22,9 @@ const contact = () => {
   };
   return (
     <>
-      <div className="title relative  text-center  mt-20">
-        <h1 className="front  font-extrabold text-[55px] lg:text-[45px] relative z-10 uppercase tracking-[-1%]">
+      <div className="Contact-Page">
+      <div className="title relative text-center mt-20 overflow-hidden" style={{height: '120px'}}>
+        <h1 className="front  font-extrabold text-[55px] lg:text-[45px] relative z-10 uppercase tracking-[2%]">
           {" "}
           Get in
           <span className="span-tag text-[#ffb400] font-extrabold uppercase ">
@@ -31,7 +32,7 @@ const contact = () => {
             touch
           </span>
         </h1>
-        <h1 className="absolute top-[-50%] w-[100%] text-[14vh] lg:text-[12vh] lg:top-[-45%] text-[#222222] font-extrabold z-0 uppercase">
+        <h1 className="absolute w-full text-[5vh] sm:text-[4vh] md:text-[6vh] lg:text-[12vh] text-[#222222] font-extrabold z-0 uppercase" style={{top: '-35px'}}>
           Contact
         </h1>
       </div>
@@ -56,8 +57,8 @@ const contact = () => {
             <div className="email-logo"></div>
             <h2 className="text-[#969696] uppercase font-[600]">Mail me</h2>
             <p>
-              <a href="mailto:zarakkkhan23630@gmail.com">
-                Zarakkhan23630@gmail.com
+              <a href="mailto:zarak.khan.swe@gmail.com">
+                zarak.khan.swe@gmail.com
               </a>
             </p>
           </section>
@@ -125,6 +126,7 @@ const contact = () => {
           </form>
         </div>
       </section>
+      </div>
     </>
   );
 };

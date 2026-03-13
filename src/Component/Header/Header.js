@@ -7,14 +7,14 @@ const Home = () => {
   return (
     <>
     <div className="HomePage">
-      <div className="rigid"></div>
+      <div className="yellow-accent"></div>
       <div className="grid">
         <section className="Profile-Image">
 
         <div className="img"></div></section>
         <div className="info">
           <div className="name font-bold ">I'M ZARAK KHAN.</div>
-          <div className="typewriter leading-10 uppercase font-bold text-white text-[51px] w-[200%] h-[30px]">
+          <div className="typewriter leading-10 uppercase font-bold text-white text-[2xl] md:text-[51px] w-full lg:w-[200%] h-auto md:h-[30px] overflow-visible">
             <Writer />
           </div>
           <div className="text mt-11 ">

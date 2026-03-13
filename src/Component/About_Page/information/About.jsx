@@ -26,7 +26,7 @@ const About = () => {
               Last Name : <span className="text-[#e6e6e6]">Khan</span>
             </div>
             <div className="Age text-[#bbbbbb] ">
-              Age : <span className="text-[#e6e6e6]">22</span>
+              Age : <span className="text-[#e6e6e6]">24</span>
             </div>
             <div className="Nationality text-[#bbbbbb] ">
               Nationality : <span className="text-[#e6e6e6]">Pakistani</span>
@@ -36,19 +36,19 @@ const About = () => {
             </div>
             <div className="Address text-[#bbbbbb] ">
               Address :{" "}
-              <span className="text-[#e6e6e6]">Faisal, Town Faisalabad</span>
+              <span className="text-[#e6e6e6]">Lahore</span>
             </div>
             <div className="Phone text-[#bbbbbb] ">
               Phone : <span className="text-[#e6e6e6]">+92 310-1758072</span>
             </div>
             <div className="Email text-[#bbbbbb] ">
               Email :{" "}
-              <span className="text-[#e6e6e6]">zarakkhan1031@gmail.com</span>
+              <span className="text-[#e6e6e6]">zarak.khan.swe@gmail.com</span>
             </div>
             <div className="Linkedin text-[#bbbbbb] ">
               LinkedIn :{" "}
               <span className="text-[#e6e6e6]">
-                https://www.linkedin.com/in/zarak-khan-a01888216
+                https://www.linkedin.com/in/zarak-khan-dev/
               </span>
             </div>
             <div className="language text-[#bbbbbb] ">
@@ -156,6 +156,18 @@ const About = () => {
           <div className="progress-bar">70%</div>
           <h1 className="text-center mt-4">REACT NATIVE</h1>
         </div>
+            <div className="Skill">
+          <div className="progress-bar">90%</div>
+          <h1 className="text-center mt-4">.Net</h1>
+        </div>
+           <div className="Skill">
+          <div className="progress-bar">70%</div>
+          <h1 className="text-center mt-4">Blazor .Net</h1>
+        </div>
+           <div className="Skill">
+          <div className="progress-bar">80%</div>
+          <h1 className="text-center mt-4">Generative AI</h1>
+        </div>
       </div>
       <h1 className="mt-[12vh] text-center font-extrabold text-[25px] uppercase">
         EXPERIENCE & EDUCATION
@@ -175,10 +187,10 @@ const About = () => {
             <div className="Info-section-About ">
               <p className="bg-[#212121] text-[#c6c6c6] text-[12px] rounded-lg font-[700] uppercase flex items-center gap-[3px]  py-[3px] px-[7px]">
                 {" "}
-                2023 <div className="w-[3px] h-[1px] bg-white"></div> Present
+                2023 <span className="w-[3px] h-[1px] bg-white"></span> Present
               </p>
               <h1 className="flex items-center   gap-[7px] font-[600] text-[20px]">
-                Ceo & Founder <div className="w-[10px] h-[1px] bg-[#cfcfcf]"></div>{" "}
+                Ceo & Founder <span className="w-[10px] h-[1px] bg-[#cfcfcf]"></span>{" "}
                 <span className="text-[#cfcfcf]">Devverse</span>
               </h1>
               <p className="text-[#c6c6c6] text-[15px]">
@@ -200,14 +212,38 @@ const About = () => {
             <div className="Info-section-About ">
               <p className="bg-[#212121] text-[#c6c6c6] text-[12px] rounded-lg font-[700] uppercase flex items-center gap-[3px]  py-[3px] px-[7px]">
                 {" "}
-                2023
+                2026 <div className="w-[3px] h-[1px] bg-white"></div> Present
               </p>
               <h1 className="flex items-center   gap-[7px] font-[600] text-[20px]">
-              Wordpress Developer<div className="w-[10px] h-[1px] bg-[#cfcfcf]"></div>{" "}
-                <span className="text-[#cfcfcf]">Horticlub</span>
+              Associate Software Engineer <span className="w-[10px] h-[1px] bg-[#cfcfcf]"></span>{" "}
+                <span className="text-[#cfcfcf]">Tronsit Solutions</span>
               </h1>
               <p className="text-[#c6c6c6] text-[15px]">
-              Managing their website (zareenjeweller , horticlub) ,Providing design for Website and Ads,Also make short videos for their youtube channel
+              Developed and maintained software applications using .NET framework. Collaborated with cross-functional teams to deliver high-quality solutions.
+              </p>
+            </div>
+          </div>
+            <div className="experince-box">
+          <div className="Layout-Icon flex flex-col items-center">
+            <div className="icon-section-About ">
+              <i
+                className="fa-solid fa-briefcase fa-sm"
+                style={{ color: "#ffffff" }}
+              ></i>
+            </div>
+            <div className="w-[1px] h-[100px] bg-[#333333] border-none" > </div>
+            </div>
+            <div className="Info-section-About ">
+              <p className="bg-[#212121] text-[#c6c6c6] text-[12px] rounded-lg font-[700] uppercase flex items-center gap-[3px]  py-[3px] px-[7px]">
+                {" "}
+                20 <div className="w-[3px] h-[1px] bg-white"></div> 2023
+              </p>
+              <h1 className="flex items-center   gap-[7px] font-[600] text-[20px]">
+              Mern Developer <span className="w-[10px] h-[1px] bg-[#cfcfcf]"></span>{" "}
+                <span className="text-[#cfcfcf]">Weeam Elnaggar</span>
+              </h1>
+              <p className="text-[#c6c6c6] text-[15px]">
+              Work on a real estate Project, Build modules survey, listing, expense and whole website modals
               </p>
             </div>
           </div>
@@ -224,14 +260,14 @@ const About = () => {
             <div className="Info-section-About ">
               <p className="bg-[#212121] text-[#c6c6c6] text-[12px] rounded-lg font-[700] uppercase flex items-center gap-[3px]  py-[3px] px-[7px]">
                 {" "}
-                2022 <div className="w-[3px] h-[1px] bg-white"></div> 2023
+                2024 <div className="w-[3px] h-[1px] bg-white"></div> 2025
               </p>
               <h1 className="flex items-center   gap-[7px] font-[600] text-[20px]">
-              Mern Developer <div className="w-[10px] h-[1px] bg-[#cfcfcf]"></div>{" "}
+              Junior Associate Software Engineering <span className="w-[10px] h-[1px] bg-[#cfcfcf]"></span>{" "}
                 <span className="text-[#cfcfcf]">Edify Group of IT</span>
               </h1>
               <p className="text-[#c6c6c6] text-[15px]">
-              Work on a Different projects of the company annabels and zapier
+              Work on a React Native and Next js
               </p>
             </div>
           </div>
@@ -253,7 +289,7 @@ const About = () => {
                 2020 <div className="w-[3px] h-[1px] bg-white"></div> 2024
               </p>
               <h1 className="flex items-center   gap-[7px] font-[600] text-[20px]">
-              BS Software Engineering <div className="w-[10px] h-[1px] bg-[#cfcfcf]"></div>{" "}
+              BS Software Engineering <span className="w-[10px] h-[1px] bg-[#cfcfcf]"></span>{" "}
                 <span className="text-[#cfcfcf]">The University of Faisalabad</span>
               </h1>
               <p className="text-[#c6c6c6] text-[15px]">
@@ -277,7 +313,7 @@ const About = () => {
                 2018 <div className="w-[3px] h-[1px] bg-white"></div>  2020
               </p>
               <h1 className="flex items-center gap-[7px] font-[600] text-[20px]">
-              F.S.c Engineering  <div className="w-[10px] h-[1px] bg-[#cfcfcf]"></div>{" "}
+              F.S.c Engineering  <span className="w-[10px] h-[1px] bg-[#cfcfcf]"></span>{" "}
                 <span className="text-[#cfcfcf]">Punjab Group of Collage</span>
               </h1>
              

@@ -4,7 +4,7 @@ import Navbar from "@/Component/Navbar/Navbar";
 export default function Home() {
   return (
     <>
-      <div className="Home relative w-[200vh]">
+      <div className="Home relative w-full">
         <Arrow />
         <Navbar />
         <Header />

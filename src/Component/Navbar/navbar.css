@@ -38,18 +38,18 @@ nav{
     width: 50px;
     height: 50px;
     position: absolute;
-    left: 70;
+    left: 0;
     top: 0;
     display: flex;
     align-items: center;
-    background-color: #363636;
-     margin-left: 13px;
-     margin-top: -3px;
-     z-index: 1;
+    justify-content: center;
+    background-color: transparent;
+    z-index: 1;
+    transition: all 0.3s ease;
 }
 
 .menu-item:hover .icon {
-    left: 100px;
+    left: 0;
     width: 50px;
     background-color: #ffb400;
 }
@@ -62,25 +62,29 @@ nav{
     position: absolute;
     top: 0;
     right: -150px;
-    width: 30px;
+    width: auto;
+    min-width: 80px;
     height: 50px;
     display: flex;
     color: #fff;
     align-items: center;
+    justify-content: flex-start;
     transition: all 0.3s ease;
     font-size: 20px;
     margin-top: -2px;
     font-weight: 600;
+    padding-left: 10px;
+    white-space: nowrap;
 }
 
 .menu-item:hover .name {
-right: 85px;
+    right: 10px;
 }
 .menu-item:hover {
     background-color: #ffb400;
 }
 .menu-item:hover #portfolio-tab {
-    right: 97px;
+    right: 10px;
 
 }
 #portfolio-tab:hover .menu-item{
@@ -89,7 +93,7 @@ right: 85px;
 }
 
 .menu-item:hover #contact-tab{
-    right: 90px;
+    right: 10px;
     
 }
 .active{
@@ -97,5 +101,100 @@ right: 85px;
 }
 .active .icon {
     background-color: #ffb400;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: #141414;
+        top: auto;
+        right: auto;
+        border-top: 1px solid #363636;
+        z-index: 100;
+        padding: 8px 0;
+        padding-bottom: max(8px, env(safe-area-inset-bottom));
+    }
+
+    .menu {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .menu-item {
+        width: 45px;
+        height: 45px;
+        margin: 0;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .menu-item:hover,
+    .menu-item.active {
+        width: 45px;
+        border-radius: 50%;
+        min-width: auto;
+        background-color: #ffb400;
+    }
+
+    .menu-item .icon {
+        position: static;
+        left: auto;
+        top: auto;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        margin-left: 0;
+        padding: 0;
+    }
+    
+    .menu-item .icon i {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .menu-item:hover .icon,
+    .menu-item.active .icon {
+        left: auto;
+        background-color: transparent;
+    }
+
+    .menu-item .name {
+        display: none; /* Hide text by default on mobile */
+    }
+    
+    .menu-item:hover .name {
+        display: flex; /* Show text on hover */
+        position: fixed;
+        bottom: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #ffb400;
+        padding: 5px 15px;
+        border-radius: 5px;
+        white-space: nowrap;
+        width: auto;
+        min-width: auto;
+        right: auto;
+        top: auto;
+    }
+    
+    .menu-item.active .icon {
+        background-color: transparent;
+    }
 }
 

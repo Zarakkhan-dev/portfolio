@@ -6,9 +6,13 @@ import React from 'react'
 const contact = () => {
   return (  
     <>
-    <Arrow/>
-    <Navbar/>
-    <Contact/>
+    <div className="Contact-Page-Container">
+      <Arrow/>
+      <Navbar/>
+      <div className="Scrollable-Contact-Page">
+        <Contact/>
+      </div>
+    </div>
     </>
   )
 }

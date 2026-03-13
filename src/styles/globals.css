@@ -11,9 +11,32 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-.Portfolio_Page ,.Scrollable-About-Page{
+/* Hide custom cursor on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
+  #custom-cursor, #custom-cursor1 {
+    display: none;
+  }
+}
+
+.Portfolio_Page ,.Scrollable-About-Page, .Scrollable-Contact-Page {
   overflow-y: scroll;
+  overflow-x: hidden;
   height: 100vh;
+}
+
+/* Home page should also be scrollable on mobile */
+.Home {
+  min-height: 100vh;
+}
+
+/* Contact page container */
+.Contact-Page-Container {
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
 }
 .Portfolio_Page::-webkit-scrollbar  , .Scrollable-About-Page::-webkit-scrollbar {
   width: 12px;

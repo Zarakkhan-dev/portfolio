@@ -17,7 +17,7 @@ const Navbar = () => {
     <ul className="menu">
         <Link href="/"> 
         <li className={`menu-item  ${Change_color ==="/" ? "active":"" }`} onClick={()=>updateChange_color("home")} >
-        <div className="icon" style={{marginLeft:11}}> <i className="fa-solid fa-house-chimney"></i> </div>
+        <div className="icon"> <i className="fa-solid fa-house-chimney"></i> </div>
             <div className="name" >Home</div>
         </li>
         </Link>

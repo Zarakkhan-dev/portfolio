@@ -1,12 +1,29 @@
 .front {
-  word-spacing: -12px;
+  word-spacing: 2px;
 }
+.Contact-Page {
+  padding-bottom: 100px; /* Space for mobile navbar */
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Fix contact text size on small screens */
+@media (max-width: 768px) {
+  .title {
+    height: 100px !important;
+  }
+  .title .absolute {
+    font-size: 8.5vh !important;
+    top: -25px !important;
+  }
+}
+
 .Contact-Section {
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-items: center;
   padding: 1vh 30vh;
-  margin-top: 5vh;
+  margin-top: 8vh; /* Increased space from title */
 }
 
 input,
@@ -151,7 +168,57 @@ textarea{
 	box-shadow: 0 0 5px #ffb400, 0 0 15px #ffb400, 0 0 30px #ffb400,
 		0 0 60px #ffb400;
 }
-@media   (min-width :1024px) {
-	
+@media (max-width: 768px) {
+    .Contact-Section {
+        grid-template-columns: 1fr;
+        padding: 0.5vh 5px; /* Further reduced padding */
+        gap: 10px; /* Further reduced gap */
+        margin-bottom: 100px;
+        overflow-x: hidden;
+        margin-top: 5vh; /* Reduced top margin on mobile */
+    }
+
+    .your-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Contact-info p {
+        width: 100%;
+        font-size: 14px;
+        overflow-wrap: break-word;
+    }
+
+    .Contact-info h1 {
+        font-size: 18px !important;
+    }
+    
+    .Contact-info p {
+        font-size: 12px !important;
+    }
+
+    .address, .mail, .call {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Contact-form {
+        width: 100%;
+    }
+    
+    /* Fix text overflow in inputs */
+    input, textarea {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
 	
 }
+
